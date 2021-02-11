@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>James W Dash</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <meta name="description" content="Web design studio">
+      <meta name="keywords" content="HTML, CSS, JavaScript">
+      <meta name="author" content="James Whitby">
+      <link rel="shortcut icon" href="favicon.ico">
+      <link rel="icon" href="favicon.ico">
+      <!-- Favicons -->
+      <link href="favicon.png" rel="icon" sizes="192x192" />
+   </head>
+   <body OnLoad="document.search.q.focus();">
+    <style>
+  /* Navbar */
+
+.navbar {
+	margin-bottom: 0;
+	background-color: #d9d9d9;
+	border: 0;
+	border-radius: 0;
+}
+/* Navbar */
+.container {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-content: center;
+    min-height: 90vh;
+}
+  
+/* general form styling */
+.container {
+    margin: 0 auto;
+}
+   
+
+input {
+	outline: none;
+}
+
+form {
+
+}
+    </style>
+<nav class="navbar navbar-expand-lg navbar-light bg-transparant navbar-dark">
+    <div class="" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html" style="color: black;">Home</a>
+            </li>
+        </ul>
+    </div>
+</nav><!-- nav end -->
+
+    <div class="container">
+        <form action="https://www.ecosia.org/search" method="get" name="search">
+            <input autocomplete="off" maxlength="255" name="q" placeholder="Search" size="25" style="border-radius: 15px; padding-top: 5px; padding-bottom: 5px; padding-left: 20px; border: solid; border-color: #666666; padding-right: 70px;" type="text" value=""> 
+            <button style="height: 35px; width: 35px; background-color: transparent; border: none;" type="submit" value="Search"><i class="fas fa-search" style="color: #666666; text-align: center;"></i></button>
+        </form>
+    </div>
+    
+   </body>
+</html>
