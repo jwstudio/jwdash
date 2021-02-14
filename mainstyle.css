@@ -6,7 +6,6 @@
 	border: 0;
 	border-radius: 0;
 }
-
 .navbartime {
 	margin-bottom: 0;
 	background-color: #cccccc;
@@ -16,7 +15,6 @@
 	padding-top: 5px;
 	padding-right: 10px;
 }
-
 .navbartime ul {
 	float: right;
 }
@@ -25,25 +23,21 @@
 /* Footer */
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #d9d9d9;
-    color: black;
-    text-align: left;
-  }
-
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #d9d9d9;
+	color: black;
+	text-align: left;
+}
 #footernav {
-    background-color: #333;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+	background-color: #333;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 /* Footer */
-
-
-
 
 input {
 	outline: none;
@@ -88,15 +82,10 @@ input {
 	border-left: solid;
 	padding-left: 10px;
 	padding-right: 20px;
-    color: #aaaaaa;
+	color: #aaaaaa;
 }
 #verticaltablinktable a, p {
 	color: white;
-}
-
-#twitter {
-	margin: 20px;
-	padding: 5px;
 }
 
 #game {
@@ -104,44 +93,40 @@ input {
 	padding-top: 35px;
 	padding-bottom: 35px;
 }
-
 #game .card {
 	border: solid;
 	border-color: black;
 }
-
 #gamebutton {
 	background: #D00505;
 	border: none;
 }
-
-#gamebutton :hover  {
-
-}
-
+#gamebutton :hover {}
 #game h2 {
 	color: white;
 }
-
 .card-body2 {
-	align-items: center; /* center the content vertically */
+	align-items: center;
+	/* center the content vertically */
 }
-
-#searchicon :hover{
+#searchicon :hover {
 	background-color: red;
 }
-
 table, th, td {
 	border: 1px solid black;
 	border-collapse: collapse;
-  }
-  th, td {
+}
+th, td {
 	padding: 5px;
 	text-align: left;
-  }
+}
+#timing {
+	background-color: white;
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
 
-  #timing {
-	  background-color: white;
-	  padding-top: 35px;
-	  padding-bottom: 20px;
+#randTitle {
+	background: none;
+	border: none;
   }
