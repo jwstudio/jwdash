@@ -39,6 +39,8 @@
 }
 /* Footer */
 
+/* Links */
+
 input {
 	outline: none;
 }
@@ -88,6 +90,28 @@ input {
 	color: white;
 }
 
+/* Links */
+
+/* timings */
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 5px;
+	text-align: left;
+}
+#timing {
+	background-color: white;
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
+
+/* timings */
+
+/* game */
+
 #game {
 	background-color: #f6f6f6;
 	padding-top: 35px;
@@ -105,26 +129,8 @@ input {
 #game h2 {
 	color: white;
 }
-.card-body2 {
-	align-items: center;
-	/* center the content vertically */
-}
-#searchicon :hover {
-	background-color: red;
-}
-table, th, td {
-	border: 1px solid black;
-	border-collapse: collapse;
-}
-th, td {
-	padding: 5px;
-	text-align: left;
-}
-#timing {
-	background-color: white;
-	padding-top: 35px;
-	padding-bottom: 20px;
-}
+
+/* game */
 
 #randTitle {
 	background: none;
