@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>James W Dash</title>
+	<title>New Tab</title>
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -125,6 +125,7 @@
 	<div class="container">
 		<form action="https://www.ecosia.org/search" id="search" method="get" name="search" >
 			<input autocomplete="off" maxlength="255" name="q" placeholder="Search" size="25" style="border-radius: 15px; padding-top: 5px; padding-bottom: 5px; padding-left: 20px; border: solid; border-color: #666666; padding-right: 70px;" type="text" value=""> <button style="height: 35px; width: 35px; background-color: transparent; border: none;" type="submit" value="Search"><i class="fas fa-search" style="color: #666666; text-align: center;"></i></button>
+			<button onclick="document.search.q.focus();" style="height: 35px; width: 35px; background-color: transparent; border: none;" type="reset" value=""><i class="fas fa-times" id="searchicon" style="color: #666666;"></i></button>
 		</form>
 	</div>
 	
