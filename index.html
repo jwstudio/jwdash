@@ -21,13 +21,13 @@
 <body onload="document.search.q.focus();">
 	<!-- nav -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-transparant navbar-dark">
-		<a class="navbar-brand" href="index.html" style="color: black;">James W Dash</a>
+		<form action="https://www.ecosia.org/search" id="search" method="get" name="search" target="_blank">
+			<input target="_blank" autocomplete="off" maxlength="255" name="q" placeholder="Search" size="25" style="border-radius: 15px; padding-top: 5px; padding-bottom: 5px; padding-left: 20px; padding-right: 10px; border: solid; border-color: #666666; outline: none;" type="text" value=""> <button target="_blank" style="height: 35px; width: 35px; background-color: transparent; border: none; outline: none;" type="submit" value="Search"><i class="fas fa-search" style="color: #666666;"></i></button> <button onclick="document.search.q.focus();" style="height: 35px; width: 35px; background-color: transparent; border: none; outline: none;" type="reset" value=""><i class="fas fa-times" id="searchicon" style="color: #666666;"></i></button>
+		</form>
 		<div class="" id="">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item">
-					<form action="https://www.ecosia.org/search" id="search" method="get" name="search" target="_blank">
-						<input target="_blank" autocomplete="off" maxlength="255" name="q" placeholder="Search" size="25" style="border-radius: 15px; padding-top: 5px; padding-bottom: 5px; padding-left: 20px; padding-right: 10px; border: solid; border-color: #666666; outline: none;" type="text" value=""> <button target="_blank" style="height: 35px; width: 35px; background-color: transparent; border: none; outline: none;" type="submit" value="Search"><i class="fas fa-search" style="color: #666666;"></i></button> <button onclick="document.search.q.focus();" style="height: 35px; width: 35px; background-color: transparent; border: none; outline: none;" type="reset" value=""><i class="fas fa-times" id="searchicon" style="color: #666666;"></i></button>
-					</form>
+
 				</li>
 			</ul>
 		</div>
