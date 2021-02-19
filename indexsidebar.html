@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>James W Dash</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+	</script>
+	<script src="https://kit.fontawesome.com/bb1b88e1b4.js">
+	</script>
+	<link href="mainstyle.css" rel="stylesheet">
+	<link href="favicon.ico" rel="shortcut icon">
+	<link href="favicon.ico" rel="icon"><!-- Favicons -->
+	<link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAB9JAAA////ACsUzwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAEiEAABEREAASIQABEQERABIhABEQABEQEiEBEQAAARESIREQAAAAERIhEQAAEREREiEREREiIiIiIiIiIiIiIiIiIiIiEREREiEREREAABESIREAAAABERIhERAAABEQEiEBEQABEQASIQAREBEQABIhAAEREQAAEiEAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon">
+</head>
+<body onload="document.search.q.focus();">
+
+	
+	<!-- nav -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-transparant navbar-dark">
+		<form action="https://www.ecosia.org/search" id="search" method="get" name="search" target="_blank">
+			<input target="_blank" autocomplete="off" maxlength="255" name="q" placeholder="Search" size="20" style="border-radius: 15px; padding-top: 5px; padding-bottom: 5px; padding-left: 20px; padding-right: 10px; border: solid; border-color: #666666; outline: none;" type="text" value=""> <button target="_blank" style="height: 35px; width: 35px; background-color: transparent; border: none; outline: none;" type="submit" value="Search"><i class="fas fa-search" style="color: #666666;"></i></button> <button onclick="document.search.q.focus();" style="height: 35px; width: 35px; background-color: transparent; border: none; outline: none;" type="reset" value=""><i class="fas fa-times" id="searchicon" style="color: #666666;"></i></button>
+		</form>
+		<div class="" id="">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+
+				</li>
+			</ul>
+		</div>
+	</nav><!-- nav end -->
+	<nav class="navbartime navbar-expand-lg navbar-light bg-transparant navbar-dark">
+		<div class="" id="">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<div id="clockbox"></div>
+				</li>
+			</ul>
+		</div>
+	</nav><!-- nav end -->
+	<section class="tabs-section text-white" id="quicklinks">
+		<div class="container">
+			<h3 class="mt-3">Quick Links</h3>
+			<div class="row">
+				<div class="col-sm-5 col-lg-3">
+					<ul class="nav nav-tabs flex-column mb-3">
+						<li class="nav-item">
+							<a class="nav-link active show" data-toggle="tab" href="#tab-1">Web Dev</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#tab-2">School Work</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#tab-3">Minecraft</a>
+						</li><!--
+                     <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab-4">Can I get some?</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab-5">Lorem Ipsum text?</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab-6">Can we use it?</a>
+                     </li>
+                     -->
+					</ul>
+				</div>
+				<div class="col-sm-7 col-lg-9">
+					<div class="tab-content">
+						<div class="tab-pane active show" id="tab-1">
+							<div class="row">
+								<div class="col-lg-12 details">
+									<h3 class="mt-3">Web Dev</h3>
+									<div id="verticaltablinktable">
+										<p><a href="https://notion.so/" style="padding-right: 10px;" target="_blank">Manager</a> <a href="https://github.com/" style="padding-right: 10px;" target="_blank">Hosting</a> <a href="https://w3schools.com/" style="padding-right: 10px;" target="_blank">W3schools</a> <a href="https://codepen.io/" style="padding-right: 10px;" target="_blank">Codepen</a> <a href="http://jameswstudio.epizy.com/New%20Portfolio/" style="padding-right: 10px;" target="_blank">Portfolio</a> <a href="http://youtube.com/" style="padding-right: 10px;" target="_blank">Youtube</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane" id="tab-2">
+							<div class="row">
+								<div class="col-lg-12 details">
+									<h3 class="mt-3">School Work</h3>
+									<div id="verticaltablinktable">
+										<p><a href="https://www.satchelone.com/" style="padding-right: 10px;" target="_blank">Satchel</a> <a href="https://docs.google.com/document/u/5/?tgif=d" style="padding-right: 10px;" target="_blank">Google Docs</a> <a href="https://pdf2png.com/" style="padding-right: 10px;" target="_blank">PDF TO PNG</a> <a href="https://www.mathway.com/Algebra" style="padding-right: 10px;" target="_blank">Mathway</a> <a href="https://en.wikipedia.org/wiki/A_Christmas_Carol/" style="padding-right: 10px;" target="_blank">Carol Wiki</a> <a href="https://en.wikipedia.org/wiki/An_Inspector_Calls" style="padding-right: 10px;" target="_blank">Calls Wiki</a> <a href="https://www.wordreference.com/es/translation.asp?" style="padding-right: 10px;" target="_blank">Translator</a> <a href="https://outlook.office.com/mail/inbox" style="padding-right: 10px;" target="_blank">Outlook</a> <a href="https://quizlet.com/latest" style="padding-right: 10px;" target="_blank">Quizlet</a> <a href="https://kahoot.com/" style="padding-right: 10px;" target="_blank">Kahoot</a> <a href="http://jameswstudio.epizy.com/New%20Portfolio/" style="padding-right: 10px;" target="_blank">Tassomai</a> <a href="https://senecalearning.com/en-GB/" style="padding-right: 10px;" target="_blank">Seneca</a><a href="https://spiral.ac/" style="padding-right: 10px;" target="_blank">Spiral</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane" id="tab-3">
+							<div class="row">
+								<div class="col-lg-12 details">
+									<h3 class="mt-3">Minecraft</h3>
+									<div id="verticaltablinktable">
+										<p><a href="https://server.pro/" style="padding-right: 10px;" target="_blank">Server Pro</a> <a href="https://www.minecraftcraftingguide.net/" style="padding-right: 10px;" target="_blank">Crafting Guide</a></p>
+									</div>
+								</div>
+							</div>
+						</div><!--
+                     <div class="tab-pane" id="tab-4">
+                        <div class="row">
+                           <div class="col-lg-12 details">
+                              <h3 class="mt-3">Where does it come from?</h3>
+                              <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tab-pane" id="tab-5">
+                        <div class="row">
+                           <div class="col-lg-12 details">
+                              <h3 class="mt-3">Where can I get some?</h3>
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tab-pane" id="tab-6">
+                        <div class="row">
+                           </div>
+                           <div class="col-lg-12 details">
+                              <h3 class="mt-3">Why do we use it?</h3>
+                              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
+                           </div>
+                        </div>
+                    -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<ul class="nav nav-tabs left-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#tab-panel-1" data-toggle="tab">School Timing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tab-panel-2" data-toggle="tab">Games</a>
+        </li>
+      </ul>
+      
+      <div class="tab-content">
+        <article class="tab-pane container active" id="tab-panel-1">
+            <section id="timing">
+                <div class="container">
+                    <div class="col-lg-12 mb-12">
+                        <h2 style="text-align: left; color: black;">School Timing</h2>
+                        <table style="width:100%">
+                            <tr>
+                                <th>Session</th>
+                                <th>Time</th>
+                                <th>Duration</th>
+                            </tr>
+                            <tr>
+                                <td>Tutor</td>
+                                <td>8.45 - 9.05</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>9.15 - 11.00</td>
+                                <td>105</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>11.35 - 13.20</td>
+                                <td>105</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>13.55 - 15.05</td>
+                                <td>70</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <article class="tab-pane container" id="tab-panel-2">
+            <section id="game">
+                <div id="" class="container-fluid text-left" style="">
+                    <br>
+                    <div class="container">
+                        <h2 style="text-align: left; color: black;">Games</h2>
+                        <div class="row text-center">
+                            <div class="col-lg-3 mb-3" id="">
+                                <div class="card" id="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Match</h5>
+                                        <a href="match.html"><button class="btn1"><b>Match</b></button></a>                      
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-lg-3 mb-3">
+                                <div class="card" id="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Snake</h5>
+                                        <a href="match.html"><button class="btn1"><b>Match</b></button></a>                        
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-lg-3 mb-3">
+                                <div class="card" id="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Snake</h5>
+                                        <a href="match.html"><button class="btn1"><b>Match</b></button></a>                           
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-lg-3 mb-3">
+                                <div class="card" id="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Snake</h5>
+                                        <a href="match.html"><button class="btn1"><b>Match</b></button></a>                           
+                                    </div>
+                                </div>
+                            </div>
+        <!--
+                            <div class="col-lg-3 mb-3 text-left">
+                                <a class="btn btn-primary btn-lg" style="padding-left: 25px; padding-right: 25px; padding-top: 5px; padding-bottom: 5px;" role="button" id="gamebutton" href="snake.html" class="button">More!</a>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </section>
+        </article>
+      </div>
+
+
+
+
+	
+	
+
+
+
+	<div class="footer">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-transparant navbar-dark" id="footernav">
+			<a class="navbar-brand" href="index.html">James W Dash</a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<script type="text/javascript">
+	   var tday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+	   var tmonth=["January","February","March","April","May","June","July","August","September","October","November","December"];
+	   
+	   function GetClock(){
+	   var d=new Date();
+	   var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate();
+	   var nhour=d.getHours(),nmin=d.getMinutes(),ap;
+	   if(nhour==0){ap=" AM";nhour=12;}
+	   else if(nhour<12){ap=" AM";}
+	   else if(nhour==12){ap=" PM";}
+	   else if(nhour>12){ap=" PM";nhour-=12;}
+	   
+	   if(nmin<=9) nmin="0"+nmin;
+	   
+	   var clocktext=""+tday[nday]+" "+ndate+", "+tmonth[nmonth]+" "+nhour+":"+nmin+ap+"";
+	   document.getElementById('clockbox').innerHTML=clocktext;
+	   }
+	   
+	   GetClock();
+	   setInterval(GetClock,1000);
+	</script>
+	
+
+</body>
+</html>
