@@ -1,3 +1,7 @@
+body {
+    background-color: #f6f6f6;
+}
+
 /* Navbar */
 
 .navbar {
@@ -92,80 +96,79 @@ input {
 
 /* Links */
 
-/* Tab big*/
-
-.tabs2-section {
-	overflow: hidden;
-	background-color: red;
-	padding: 35px 0px;
-}
-.tabs2-section .nav-tabs {
-	border: 0;
-}
-.tabs2-section .nav-link {
-	border: 0;
-	padding: 11px 15px;
-	transition: 0.3s;
-	color: #fff;
-	border-radius: 0;
-	font-weight: 600;
-	font-size: 15px;
-}
-.tabs2-section .nav-link:hover {
-	color: white;
-}
-.tabs2-section .nav-link.active {
-	color: #333333;
-	background: white;
-}
-.tabs2-section .nav-link:hover {}
-.tabs2-section .tab-pane.active {
-	-webkit-animation: fadeIn 0.5s ease-out;
-	animation: fadeIn 0.5s ease-out;
-}
-.tabs2-section .details h3 {
-	font-size: 26px;
-	color: white;
-}
-.tabs2-section .details p, {
-	color: #aaaaaa;
-}
-#verticaltablinktable th {
-	border-left: solid;
-	padding-left: 10px;
-	padding-right: 20px;
-	color: #aaaaaa;
-}
-#verticaltablinktable a, p {
-	color: white;
-}
-
-/* Tab big */
-
 /* timings */
 
 table, th, td {
 	border: 1px solid black;
 	border-collapse: collapse;
+    background-color: white;
 }
 th, td {
 	padding: 5px;
 	text-align: left;
 }
 #timing {
-	background-color: white;
-	padding-top: 35px;
-	padding-bottom: 20px;
+	
 }
 
 /* timings */
 
+/* tab content */
+#contenttabs {
+
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#contenttabs ul {
+    background-color: transparent;
+    color: black; 
+    border-bottom: solid;
+}
+
+#contenttabs li a {
+    background-color: transparent;
+    color: black; 
+    border: solid none;
+    border-width: 1px 1px 0px 1px; /* top, right, bottom and left */
+}
+
+#contenttabs a {
+    color: black;
+}
+
+#contenttabs li .active {
+    background-color: transparent;
+    color: black;
+    border: solid grey;
+    border-width: 4px 4px 0px 4px; /* top, right, bottom and left */
+}
+
+.nav-link {
+    margin-right: 10px;
+}
+
+#tab-pane {
+    background-color: red;
+}
+#tab-panel-1 {
+    background-color: #f6f6f6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#tab-panel-2 {
+    background-color: #f6f6f6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* tab content */
+
 /* game */
 
 #game {
-	background-color: #f6f6f6;
-	padding-top: 35px;
-	padding-bottom: 35px;
+
 }
 #game .card {
 	border: solid;
