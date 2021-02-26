@@ -1,3 +1,5 @@
+/* code that doesnt change */
+
 /* Navbar */
 
 .navbar {
@@ -19,25 +21,6 @@
 	float: right;
 }
 /* Navbar */
-
-/* Footer */
-
-.footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: #d9d9d9;
-	color: black;
-	text-align: left;
-}
-#footernav {
-	background-color: #333;
-	color: white;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-/* Footer */
 
 /* Links */
 
@@ -97,15 +80,14 @@ input {
 table, th, td {
 	border: 1px solid black;
 	border-collapse: collapse;
+    background-color: white;
 }
 th, td {
-	padding: 5px;
+	padding-left: 10px;
 	text-align: left;
 }
 #timing {
-	background-color: white;
-	padding-top: 35px;
-	padding-bottom: 20px;
+	
 }
 
 /* timings */
@@ -113,9 +95,7 @@ th, td {
 /* game */
 
 #game {
-	background-color: #f6f6f6;
-	padding-top: 35px;
-	padding-bottom: 35px;
+
 }
 #game .card {
 	border: solid;
@@ -144,6 +124,7 @@ th, td {
 	   background-color: #333;
 	   border:3px solid #333;
 	   color:white;
+       outline: none;
 	   -webkit-transition: 1s;
 	   -moz-transition: 1s;
 	   -ms-transition: 1s;
@@ -152,6 +133,88 @@ th, td {
  }
 
 /* game */
+
+/* Footer */
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #cccccc;
+	color: black;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+#footernav {
+	background-color: #333;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/* Footer */
+
+/* code that doesnt change */
+
+/* side bar specific code */
+body {
+    background-color: #f6f6f6;
+}
+
+/* tab content */
+#contenttabs {
+
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#contenttabs ul {
+    background-color: transparent;
+    color: black; 
+    border-bottom: solid;
+}
+
+#contenttabs li a {
+    background-color: transparent;
+    color: black; 
+    border: solid none;
+    border-width: 1px 1px 0px 1px; /* top, right, bottom and left */
+}
+
+#contenttabs a {
+    color: black;
+}
+
+#contenttabs li .active {
+    background-color: transparent;
+    color: black;
+    border: solid grey;
+    border-width: 4px 4px 0px 4px; /* top, right, bottom and left */
+}
+
+.nav-link {
+    margin-right: 10px;
+}
+
+#tab-pane {
+    background-color: red;
+}
+#tab-panel-1 {
+    background-color: #f6f6f6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#tab-panel-2 {
+    background-color: #f6f6f6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* tab content */
+
+/* side bar specific code */
 
 #randTitle {
 	background: none;
