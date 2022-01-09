@@ -44,3 +44,59 @@ header .darkmodetrigger.active{
     background-color: #111111;
     border: 2px solid white;
 }
+
+/* Navbar */
+.navbar {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: solid 10px #00A3FF;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+
+.navbar a {
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #003366;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar a:visited {
+    color: #003366;
+}
+
+.activelink a {
+    color: #003366;
+    font-weight: bold;
+}
+
+.activelink a:visited {
+  color: #003366;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-toggler i {
+    color: #003366;
+}
+
+.navbar-toggler i:hover {
+    color: black;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Navbar */
