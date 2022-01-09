@@ -10,7 +10,7 @@ body.darkmodetrigger{
 	color: #fff;
 }
 
-header .darkmodetrigger{
+.darkmodetrigger{
 	position: absolute;
 	right: 2rem;
 	top: 2rem;
@@ -23,7 +23,7 @@ header .darkmodetrigger{
 	appearance: none;
 }
 
-header .darkmodetrigger::before{
+.darkmodetrigger::before{
 	content: '';
 	position: absolute;
 	left: 4px;
@@ -35,13 +35,13 @@ header .darkmodetrigger::before{
 	transform: translateY(-50%);
 }
 
-header .darkmodetrigger.active::before{
+.darkmodetrigger.active::before{
 	left: auto;
 	right: 4px;
     background-color: white;
 }
 
-header .darkmodetrigger.active{
+.darkmodetrigger.active{
     background-color: #111111;
     border: 2px solid white;
 }
