@@ -1,6 +1,6 @@
 function darkmode_init()
 {
-	let darkmodeSwitch = document.querySelector('header .darkmodetrigger');
+	let darkmodeSwitch = document.querySelector('.darkmodetrigger');
 	
 	let darkmodeCookie = {
 		set:function(key,value,time,path,secure=false)
