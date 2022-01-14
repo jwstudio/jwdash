@@ -25,7 +25,6 @@ body.darkmodetrigger{
 	height: 1rem;
 	background-color: white;
 	border-radius: 50%;
-	transform: translateY(-50%);
 }
 
 .darkmodetrigger.active::before{
