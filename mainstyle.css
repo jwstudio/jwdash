@@ -102,6 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 25vw;
 	height: 25vw;
 	border-radius: 50px;
+    margin-bottom: 10px;
 }
 
 /* Hero */
