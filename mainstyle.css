@@ -103,6 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 25vw;
 	border-radius: 50px;
     margin-bottom: 10px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 
 /* Hero */
@@ -139,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-left: none;
 	border-right: none;
 	background-color: transparent;
-	padding-left: 2px;
+	padding-left: 5px;
 	margin-top: 5px;
 }
 
@@ -149,9 +150,13 @@ h1, h2, h3, h4, h5, h6 {
 	border-left: none;
 	border-right: none;
 	background-color: transparent;
-	padding-left: 0px;
+	padding-left: 5px;
 	padding-top: 5px;
 	margin-top: 5px;
+}
+
+#contact label {
+	padding-left: 5px;
 }
 
 #contact form input::placeholder, #contact form textarea::placeholder {
@@ -170,6 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #contact form button:hover {
 	background-color: #444;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 
 /* Contact */
