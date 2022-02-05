@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-toggler i:hover {
-    color: red;
+    color: #962EBB;
 }
 
 .navbar-toggler:focus,
@@ -194,8 +194,17 @@ h1, h2, h3, h4, h5, h6 {
 	border-left: none;
 	border-right: none;
 	background-color: transparent;
-	padding-left: 5px;
+	padding-left: 10px;
+	padding-top: 10px;
 	margin-top: 5px;
+}
+
+#contact form input:focus {
+	border-bottom: 3px solid black;
+}
+
+#contact form input:hover {
+	border-bottom: 3px solid black;
 }
 
 #contact form textarea {
@@ -204,13 +213,21 @@ h1, h2, h3, h4, h5, h6 {
 	border-left: none;
 	border-right: none;
 	background-color: transparent;
-	padding-left: 5px;
-	padding-top: 5px;
+	padding-left: 10px;
+	padding-top: 10px;
 	margin-top: 5px;
 }
 
+#contact form textarea:focus {
+	border-bottom: 3px solid black;
+}
+
+#contact form textarea:hover {
+	border-bottom: 3px solid black;
+}
+
 #contact label {
-	padding-left: 5px;
+	padding-left: 10px;
 }
 
 #contact form input::placeholder, #contact form textarea::placeholder {
@@ -229,7 +246,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #contact form button:hover {
 	background-color: #962EBB;
-	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 
 /* Contact */
@@ -237,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Footer */
 
 #footer {
-    border-top: solid 10px #333;
+    border-top: solid 10px #962EBB;
     background-color: white;
     color: #333;
 }
@@ -263,5 +279,3 @@ i:hover {
   border: #333 double 5px;
 		color: #962EBB;
 }
-
-/* To Top */
