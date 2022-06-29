@@ -1,208 +1,148 @@
+<!doctype html>
 <html>
 <head>
-  <title>JWW</title>
-  <script src="https://kit.fontawesome.com/bb1b88e1b4.js"></script>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-   <!-- Latest compiled and minified CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Latest compiled JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script> 
-  <link rel="stylesheet" href="mainstyle.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Helvetica">
-  
-<!-- Favicon -->
-<link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREREREREREREREREREREQAAAREAEREQAAAAEAABERABEQAQAAERERERABEAEREREREAEREREREREQARERERERERABEREREREREAEREREREREQARERERERERABEREREQAAAAAAABERAAAAAAAAEREREREREREREREREREREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
-  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <title>James W</title>
+  <!-- Favicon -->
+  <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREREREREREREREREREREQAAAREAEREQAAAAEAABERABEQAQAAERERERABEAEREREREAEREREREREQARERERERERABEREREREREAEREREREREQARERERERERABEREREQAAAAAAABERAAAAAAAAEREREREREREREREREREREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
 </head>
-<body style="background-color: #F9FAFB; color: #333; font-size: 21px;">
-
-<nav class="navbar navbar-expand-lg bg-transparant">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">James Whitby</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>        
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <!--<li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home1</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>-->
-            </ul>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a href="#Services">Services</a>
-                </li>
-																<li class="nav-item">
-                  <a href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#contact">Contact</a>
-                </li>
-																<li class="nav-item">
-																	<a href="cv.pdf" download>Download CV</a>
-													</li>
-                <!--<li class="nav-item">
-                    <button type="button" class="btn btn-transparant" id="button1">Contact Us</button>
-                </li>-->
-            </ul>
+<body>
+    <nav class="bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+          <div class="flex justify-between">
+      
+            <div class="flex space-x-4">
+              <div>
+                <a href="index.html" class="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">
+                  <span class="font-bold capitalize hover:underline">James Whitby</span>
+                </a>
+              </div>
+      
+              <!-- primary nav -->
+              <div class="hidden md:flex items-center space-x-1">
+                <a href="#projects" class="py-5 px-3 text-gray-700 hover:text-gray-900 hover:bg-gray-200 capitalize"><i class="bi bi-card-text"></i><span class="hover:underline ml-2">Projects</span></a>
+                <a href="#contact" class="py-5 px-3 text-gray-700 hover:text-gray-900 hover:bg-gray-200 capitalize"><i class="bi bi-phone"></i><span class="hover:underline ml-2">Contact</span></a>          </div>
+            </div>
+      
+            <!-- secondary nav -->
+            <div class="hidden md:flex items-center space-x-1">
+              <a href="cv.pdf" download class="py-2 px-3 bg-[#172EA1] hover:bg-stone-900 text-white rounded transition duration-300 capitalize"><i class="bi bi-download"></i><span class="ml-2">Download CV</span></a>
+            </div>
+      
+            <!-- mobile button goes here -->
+            <div class="md:hidden flex items-center">
+              <button class="mobile-menu-button">
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
+      
+          </div>
         </div>
+      
+        <!-- mobile menu -->
+        <div class="mobile-menu hidden md:hidden">
+          <a href="#projects" class="block py-2 px-6 text-sm hover:bg-gray-200 capitalize"><i class="bi bi-card-text"></i><span class="hover:underline ml-2">Projects</span></a>
+          <a href="#contact" class="block py-2 px-6 text-sm hover:bg-gray-200 capitalize"><i class="bi bi-phone"></i><span class="hover:underline ml-2">Contact</span></a>
+          <a href="cv.pdf" download target="_blank" class="block py-2 px-6 text-sm hover:bg-gray-200 capitalize"><i class="bi bi-download"></i><span class="hover:underline ml-2">Download CV</span></a>
+    
+        </div>
+      </nav>
+     
+      <div class='px-6 py-20'>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-8">
+        <div class="order-last lg:order-first md:order-first">
+        <h1 class="text-4xl font-bold capitalize text-stone-800">James Whitby</h1>
+            <p class='mt-2'>I am a <b>Front End Web Developer!</b> I have learnt tools such as TailwindCSS to create responsive custom websites, and I am learning ReactJS to take my websites to the next level!</p>
+            <div class="flex space-x-2 mt-4">
+                <a href="#contact"><button class='capitalize bg-stone-900 text-white px-3 py-2 rounded-sm hover:shadow-lg hover:bg-[#172EA1] focus:shadow-lg transition duration-150 ease-in-out'>Contact Me</button></a>
+            </div>
+        </div>
+        <!-- <div class="bg-[#172EA1] flex items-center justify-center order-first md:order-first lg:order-last">
+            <div class="">
+                <img src="" class="max-w-full h-auto" alt="James Whitby" />
+            </div>
+        </div> -->
+      </div>
+      </div>
+    
+        <hr class='border-stone-600'></hr>
+        <h3 class='capitalize font-bold text-center py-5'>Send me an <a href="mailto:jameswhitby813@gmail.com" class="underline hover:text-[#172EA1]">Email</a> to get in touch!</h3>
+        <hr class='border-stone-600'></hr>
+    
+    <div id="projects" class="px-6 mt-12 mb-12">
+        
+    
+        <h2 class="text-2xl font-bold capitalize text-[#172EA1]">My recent Projects:</h2>
+          
+          <div class="grid grid-cols-3 pt-5">
+            <div class="col-span-2">
+              <div data-bs-spy="scroll" data-bs-target="#scrollspy1" data-bs-offset="200" class="scrollspy-example">
+                <section id="project1">
+                  <h3 class="text-xl font-semibold pb-3">Martin Building Services</h3>
+                  <p>
+                    I am working with Martin creating a website for his building company, designing this site in Figma and building it using TailwindCSS. I will be ensuring that his website is SEO optimised and I will be using the Contentful API to allow him to use their CMS to keep his projects up to date without having to touch the code, while still giving me complete flexibility.
+                  </p>
+                  <!-- Modal toggle -->
+                  <a href="drawing.jpeg" target="_blank" class="underline my-3 hover:text-[#172EA1]">Mock Drawing<i class="bi bi-arrow-up-right ml-2"></i></a><br>
+                  <a href="Home.jpg" target="_blank" class="underline my-3 hover:text-[#172EA1]">Figma Design<i class="bi bi-arrow-up-right ml-2"></i></a>
+                </section>
+                <section id="project2">
+                  <h3 class="text-xl font-semibold pt-5 pb-3">Tech Club</h3>
+                  <p>
+                    To practice my Figma designing skills I designed a website for a tech club, you can find the designs bellow.
+                  </p>
+                  <img src="" alt="Figma Designs">
+                </section>
+              </div>
+            </div>
+          
+            <div>
+              <!-- Scrollspy -->
+              <div id="scrollspy1" class="sticky-top pl-3 text-sm border-l-2">
+                <ul class="nav nav-pills menu-sidebar">
+                  <li class="py-1">
+                    <a class="nav-link block p-2 hover:bg-gray-200" href="#project1">Martin Building Services</a>
+                  </li>
+                  <li class="py-1">
+                    <a class="nav-link block p-2 hover:bg-gray-200" href="#project2">Tech Club</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Scrollspy -->
+            </div>
+          </div>
     </div>
-</nav>
-<div class="container" style="padding-left: 30px; padding-right: 30px;">
-<div id="hero">
-	<img src="https://raw.githubusercontent.com/jwstudio/jww/4ed6549f7cd4fe1fa7c421937ca04688f5a27886/u2nl2a.jpg">
-	<h1>James Whitby</h1>
-	<p>I am a <b>frontend web designer</b> - <a href="cv.pdf" download>Download CV</a></p>
-	<a href="#services"><button style="margin-right: 20px; margin-top: 15px;"id="button1">What I offer</button></a><a href="#contact"><button style="margin-right: 20px; margin-top: 15px;" id="button2">Contact Me</button></a><br><br>
-	<a href="https://twitter.com/JamesWhitby20" target="_blank"><i class="fab fa-twitter" style="margin-right: 20px; margin-top: 15px;"></i></a><a href="mailto:jameswhitby813@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
-	</div>
-</div>
-
-<br><br>
-
-	<div id="projects">
-<svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(235, 235, 235, 1)" offset="0%"></stop><stop stop-color="rgba(235, 235, 235, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,80L1440,0L2880,50L4320,50L5760,10L7200,90L8640,60L10080,10L11520,60L12960,90L14400,80L15840,50L17280,90L18720,70L20160,90L21600,0L23040,30L24480,60L25920,20L27360,10L28800,0L30240,70L31680,80L33120,90L34560,70L34560,100L33120,100L31680,100L30240,100L28800,100L27360,100L25920,100L24480,100L23040,100L21600,100L20160,100L18720,100L17280,100L15840,100L14400,100L12960,100L11520,100L10080,100L8640,100L7200,100L5760,100L4320,100L2880,100L1440,100L0,100Z"></path></svg>
-	<div id="recentprojects">
-	<div class="container" style="padding-left: 30px; padding-right: 30px;">
-		<h2>Recent Projects</h2>
-		<p>Click on a project for more info!</p>
-		<hr>
-		<br>
-	<button class="accordion">Project 1 - Job</button>
-<div class="panel">
-	<a href="#project1" target="_blank">Visit Site</a>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-		<br><br><br>
-	<button class="accordion">Project 2 - Job</button>
-<div class="panel">
-		<a href="#project2" target="_blank">Visit Site</a>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-		
-		<br>
-		
-</div>	
-		</div>
-<svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(235, 235, 235, 1)" offset="0%"></stop><stop stop-color="rgba(235, 235, 235, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,80L1440,10L2880,60L4320,0L5760,30L7200,20L8640,90L10080,70L11520,0L12960,50L14400,10L15840,70L17280,20L18720,90L20160,10L21600,10L23040,70L24480,10L25920,0L27360,50L28800,20L30240,20L31680,70L33120,10L34560,90L34560,100L33120,100L31680,100L30240,100L28800,100L27360,100L25920,100L24480,100L23040,100L21600,100L20160,100L18720,100L17280,100L15840,100L14400,100L12960,100L11520,100L10080,100L8640,100L7200,100L5760,100L4320,100L2880,100L1440,100L0,100Z"></path></svg>
-	<br><br>
-	
-	<div id="contact">
-		<div class="container" style="padding-left: 30px; padding-right: 30px;">
-		<h2>Contact Me</h2>
-		<hr>
-			<p>Contact me with the links below!</p>
-			<a href="https://twitter.com/JamesWhitby20" target="_blank"><i class="fab fa-twitter" style="margin-right: 20px;"></i></a><a href="mailto:contact@jwhitbyweb.com" target="_blank"><i class="fas fa-envelope"></i></a>
-			<br><br>
-			<h2>Or fill out the form!</h2>
-			<form name="contact" action="thanks.html" method="POST" data-netlify="true">
-<input type="hidden" name="form-name" value="contact">
-  <p>
-    <label>Name </label>*<br> <input type="text" name="name" placeholder="Your Name" required/>  
-  </p>
-  <p>
-    <label>Email *</label><br> <input type="email" name="email" placeholder="Your Email" required/>
-  </p>
-  <p>
-    <label>Project Info *</label><br> <textarea name="message" placeholder="Your Projects Info" required></textarea>
-  </p>
-  <p>
-    <button type="submit">Submit</button>
-  </p>
-</form>
-
-		</div>
-	</div>
-	
-	<br><br>
-	
-<div id="footer">
-<div class="container" style="padding-left: 30px; padding-right: 30px;">
-    <div class="row" style="margin-top: 80px;">
-        <div class="col-lg-8 mb-8">
-            <div id="welcomemessage">
-        <script type="text/javascript">
-            var day = new Date();
-            var hr = day.getHours();
-            if (hr >= 0 && hr < 12) {
-                document.write("I look forward to working with you, thank you for reading, have a great morning!");
-            } else if (hr >= 12 && hr <= 17) {
-                document.write("I look forward to working with you, thank you for reading, have a great afternoon!");
-            } else {
-                document.write("I look forward to working with you, thank you for reading, have a great evening!");
-            }
-            document.write("</font></center>");
-        </script>
-    </div></p>
-        </div>
-        <div class="col-lg-4 mb-4">
-            <a href="https://twitter.com/JamesWhitby20" target="_blank"><i class="fab fa-twitter" style="margin-right: 20px;"></i></a><a href="mailto:jameswhitby813@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
-        </div>
-    </div>
-    <div class="row" style="margin-top: 40px;">
-        <div class="col-lg-4 mb-4">
-            <h2>Navigation</h2>
-												<a href="#services">Services</a><br>
-            <a href="#projects">Projects</a><br>
-            <a href="#contact">Contact</a><br>
-        </div>
-        <div class="col-lg-4 mb-4">
-            <h2>Contact</h2>
-            <a href="#contact" style="">Form</a><br>
-            <a href="mailto:jameswhitby813@gmail.com">jameswhitby813@gmail.com</a><br>
-    </div>
-					<div class="col-lg-4 mb-4">
-						<h2>Other</h2>
-					<a href="cv.pdf" download>Download CV</a>
-					</div>
-</div>
-<br>
-</div>
-		
-<button onclick="topFunction()" id="totop" title="Back To Top">To Top</button>
-		
-		<script>
-//Get the button
-var mybutton = document.getElementById("totop");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
-		<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
-</script>
+    
+    <div class="bg-gray-100 pt-12 pb-12">
+    <h2 class="text-2xl font-bold capitalize text-[#172EA1] px-6 pb-3 pt-3">Contact:</h2>
+    <form name="contact" action="index.html" method="POST" data-netlify="true" class="px-6">
+      <label>First Name <span class="font-bold">*</span></label><br><input name="name" required type="text" placeholder="First Name" class="border-2 border-stone-300 px-2 py-2"><br><br>
+      <label>Email <span class="font-bold">*</span></label><br><input name="email" required type="email" placeholder="Email" class="border-2 border-stone-300 px-2 py-2"><br><br>
+      <label>Project Info <span class="font-bold">*</span></label><br><textarea name="project" required type="text" placeholder="Project info" class="border-2 border-stone-300 focus:border-red-600 px-2 py-2 md:w-1/2 w-full" rows="5"></textarea><br><br>
+      <button type="submit" class='capitalize bg-stone-900 text-white px-3 py-2 rounded-sm hover:shadow-lg hover:bg-[#172EA1] focus:shadow-lg transition duration-150 ease-in-out'><i class="bi bi-send"></i><span class="ml-2">Submit</span></button>
+    </form>
+  </div>
+      <br>
+      <div class="text-center pb-12 pt-12">
+        <a href="cv.pdf" download target="_blank" class="py-2 px-6 text-sm hover:bg-gray-200 capitalize"><i class="bi bi-download"></i><span class="hover:underline ml-2">Download CV</span></a>
+        <h2 class="text-2xl font-bold capitalize text-[#172EA1] pt-4">Adios, have a good day!</h2>
+      </div>
+    </body>
+    <script>
+    
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+    
+    // add event listeners
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+    
+    </script>
 </body>
 </html>
