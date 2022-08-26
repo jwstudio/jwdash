@@ -384,6 +384,7 @@
   }
   #projectInfo {
     padding: 40px 0px;
+    background-color: #f0f0f0;
   }
   #projectInfo p {
     border-left: solid 6px #172EA1;
@@ -412,6 +413,10 @@
     100% {
       top: 0px;
     }
+  }
+  
+  #faq {
+    margin-top: 80px;
   }
   
   .text {
