@@ -418,6 +418,13 @@
   #faq {
     margin-top: 80px;
   }
+  #faq a {
+    color: #172EA1;
+    text-decoration: none;
+  }
+  #faq a:hover {
+    text-decoration: underline;
+  }
   
   .text {
     display: none;
@@ -446,10 +453,6 @@
   .accordian:focus, .accordian:hover {
     outline: none;
     background-color: #f0f0f0;
-  }
-  
-  .accordian:focus {
-    font-weight: bold;
   }
   
   #faq .col-8 {
