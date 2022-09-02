@@ -45,7 +45,7 @@
           <p>Domestic <strong>Building Services</strong> in and around the <strong>Newton Abbot</strong> area. I work across all areas of building, brickwork and blockwork, external and internal, referbishments, extensions, nothings too small. Using expertise gained by working in the construction industry for more than 30 years.</p>
           <a tabindex="-1" href="index#contact"><button class="primary">Contact Me</button></a>
         </div>
-        <div class="col-6"><img src="heroimage.jpg" alt="Martin Building Services Patio Project After"></div>
+        <div class="col-6"><img src="projects/patioProjectA.jpeg" alt="Martin Building Services Patio Project After"></div>
       </div>
     </div>
 
@@ -55,23 +55,16 @@
       <hr>
     </div>
 
-    
-    <div id="projects"><div class="container"> 
+    <div id="projects">
       <div class="row">
-        <div class="col-4">
-          <h2>Roof Restoration Project</h2> 
-          <p>As you can see in the attached photos, I repaired the severely worn tiling for this customer, making their roof appear brand new again.</p>
-          <a tabindex="-1" id="desktop" href="projects.html"><button class="primary">More Projects</button></a>
-        </div>
-        <div class="col-4"><img src="projects/roofProjectB.jpeg" alt="Before I started my work."/><br>Before</div>
-        <div class="col-4"><img src="projects/roofProjectA.jpeg" alt="After I finished my work."/><br>After</div>
+          <div class="col-4">
+            <h2>Patio Pointing Restoration Project</h2> 
+            <p>For this customer I removed the existing pointing between the slabs and repointed and rebedded any loose slabs as necessary, removing the problem of weeds growing within the pointing and making the patio look brand new again.</p>
+            <a tabindex="-1" id="desktop" href="projects.html"><button class="primary">More Projects</button></a>
+          </div>
+          <div class="col-4"><img src="projects/patioProjectB.jpeg" alt="Before I started my work."/><br>Before</div>
+          <div class="col-4"><img src="projects/patioProjectA.jpeg " alt="After I finished my work."/><br>After</div>
       </div>
-      <div class="row">
-        <div class="col-12">
-          <a tabindex="-1" id="mobile" href="projects.html"><button class="primary">More Projects</button></a>
-        </div>
-      </div>
-    </div>
     </div>
 
     <div class="container" id="projectInfo">
@@ -94,8 +87,8 @@
         <div class="col-8">
           <h2>Frequently Asked Questions (FAQ's)</h2>
           <button class="accordian">How to contact me? <span id="plus">+</span></button>
-          <p class="text">You can contact me through <a href="mailto:martinbentley31@gmail.com">Email</a> or <a href="tel:07544861154">Call me</a> on +44 7544 861154 or you can fill out my <a href="index.html#contact">Contact Form</a>.</p>
-
+          <!-- <p class="text">You can contact me through <a href="mailto:martinbentley31@gmail.com">Email</a> or <a href="tel:07544861154">Call me</a> on +44 7544 861154 or you can fill out my <a href="index.html#contact">Contact Form</a>.</p> -->
+          <p class="text">To contact me, you can send me an <a href="mailto:martinbentley31@gmail.com">email</a>, give me a call at <a href="tel:07544861154">+44 7544 861154</a>, or you can use my <a href="index.html#contact">contact form</a> bellow to get in touch with me.</p>
           <button class="accordian">How my pricing works? <span id="plus">+</span></button>
           <p class="text">My pricing is based on either a per job or daily rate.</p>
         </div>
@@ -111,7 +104,7 @@
       <div class="col-6">
         <h2>Contact Me</h2>
           <hr></hr>
-          <form>
+          <form name="contact" method="POST" data-netlify="true">
             <p>
               <span>* Required fields.</span>
             </p>
@@ -125,7 +118,7 @@
             <label for="email">
               Email <span>*</span>
             </label>
-            <input placeholder="Email *" name="email" required aria-required="true" autoComplete="email"></input>
+            <input type="email" placeholder="Email *" name="email" required aria-required="true" autoComplete="email"></input>
             <br></br>
 
             <label for="projectInfo">
@@ -140,9 +133,7 @@
           </form>
       </div>
       <div class="col-6">
-        <p>
-          You can contact me through email or call me on +44 7544 861154 or you can fill out my contact form.
-        </p>
+        <p>To contact me, you can send me an email, give me a call at <span style="display: inline-block;">+44 7544 861154</span>, or you can use my contact form to get in touch with me.</p>
 
         <table>
           <tr>
