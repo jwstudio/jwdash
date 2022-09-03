@@ -78,6 +78,10 @@
   #faq [class*=col-] {
     margin: 0px !important;
   }
+  #nopage {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
 }
 button, a, #navPop i {
   transition: all 0.5s;
@@ -333,6 +337,9 @@ button, a, #navPop i {
 #projects .project:nth-of-type(odd) {
   background-color: #e6e6e6;
 }
+#projects .project:nth-of-type(odd) img {
+  border: solid black 1px;
+}
 #projects .project {
   padding-top: 40px;
 }
@@ -349,6 +356,15 @@ button, a, #navPop i {
 #action {
   margin: 80px;
   text-align: center;
+}
+
+#nopage {
+  background-color: #f0f0f0;
+  margin: 80px 25% 0px 25%;
+  text-align: center;
+}
+#nopage button i {
+  margin-right: 10px;
 }
 
 body {
