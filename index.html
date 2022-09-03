@@ -44,7 +44,7 @@
       <div class="row">
         <div class="col-6">
           <h1>Martin Building Services</h1>
-          <p>Domestic <strong>Building Services</strong> in and around the <strong>Newton Abbot</strong> area. I work across all areas of building, brickwork and blockwork, external and internal, referbishments, extensions, nothings too small. Using expertise gained by working in the construction industry for more than 30 years.</p>
+          <p>Domestic <strong>Building Services</strong> in and around the <strong>Newton Abbot</strong> area. I work across all areas of building, brickwork and blockwork, external and internal, refurbishments, extensions, nothings too small. Using expertise gained by working in the construction industry for more than 30 years.</p>
           <a tabindex="-1" href="index#contact"><button class="primary">Contact Me</button></a>
         </div>
         <div class="col-6"><img src="projects/patioProjectA.jpeg" alt="Martin Building Services Patio Project After"></div>
@@ -106,7 +106,10 @@
       <div class="col-6">
         <h2>Contact Me</h2>
           <hr></hr>
-          <form name="contact" method="POST" data-netlify="true" action="projects.html" data-netlify-recaptcha="true">
+          <form name="contact" method="POST" data-netlify="true" action="projects.html" netlify-honeypot="bot-field">
+            <label hidden>
+              Don’t fill this out if you’re human: <input name="bot-field" />
+            </label>
             <input type="hidden" name="subject" value="Sales inquiry from mysitename.netlify.app" />
             <p>
               <span>* Required fields.</span>
@@ -130,18 +133,11 @@
             <textarea style="resize: none;" placeholder="Project Info *" name="projectInfo" required aria-required="true" rows="4"></textarea>
             <br></br>
 
-            <div data-netlify-recaptcha="true" onclick="callback()"></div>
-
             <br></br>
             <button type="submit" disabled>
               <i class="bi bi-send"></i>Submit
             </button>
-            <script type="text/javascript">
-              function callback() {
-                const submitButton = document.getElementById("submit-button");
-                submitButton.removeAttribute("disabled");
-              }
-            </script>
+
           </form>
       </div>
       <div class="col-6">
