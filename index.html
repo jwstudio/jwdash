@@ -133,9 +133,15 @@
             <div data-netlify-recaptcha="true"></div>
 
             <br></br>
-            <button type="submit">
+            <button type="submit" disabled>
               <i class="bi bi-send"></i>Submit
             </button>
+            <script type="text/javascript">
+              function callback() {
+                const submitButton = document.getElementById("submit-button");
+                submitButton.removeAttribute("disabled");
+              }
+            </script>
           </form>
       </div>
       <div class="col-6">
